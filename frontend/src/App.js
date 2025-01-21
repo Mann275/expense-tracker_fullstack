@@ -1,13 +1,13 @@
-import React, {useState, useMemo} from 'react'
+import React, { useMemo, useState } from 'react';
 import styled from "styled-components";
-import bg from './img/bg.png'
-import {MainLayout} from './styles/Layouts'
-import Orb from './Components/Orb/Orb'
-import Navigation from './Components/Navigation/Navigation'
 import Dashboard from './Components/Dashboard/Dashboard';
-import Income from './Components/Income/Income'
 import Expenses from './Components/Expenses/Expenses';
+import Income from './Components/Income/Income';
+import Navigation from './Components/Navigation/Navigation';
+import Orb from './Components/Orb/Orb';
 import { useGlobalContext } from './context/globalContext';
+import bg from './img/bg.png';
+import { MainLayout } from './styles/Layouts';
 
 function App() {
   const [active, setActive] = useState(1)

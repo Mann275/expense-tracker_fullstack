@@ -1,16 +1,17 @@
-import React from 'react'
-import {Chart as ChartJs, 
+import {
+    ArcElement,
     CategoryScale,
+    Chart as ChartJs,
+    Legend,
     LinearScale,
-    PointElement,
     LineElement,
+    PointElement,
     Title,
     Tooltip,
-    Legend,
-    ArcElement,
 } from 'chart.js'
+import React from 'react'
 
-import {Line} from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2'
 import styled from 'styled-components'
 import { useGlobalContext } from '../../context/globalContext'
 import { dateFormat } from '../../utils/dateFormat'

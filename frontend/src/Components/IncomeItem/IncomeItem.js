@@ -142,7 +142,7 @@ const IncomeItemStyled = styled.div`
                 width: .8rem;
                 height: .8rem;
                 border-radius: 50%;
-                background: ${props => props.indicator};
+                background: $ {props => props.indicator};
             }
         }
 
