@@ -87,7 +87,7 @@ const DashboardStyled = styled.div`
                 }
                 .income, .expense, .balance{
                     background: #FCF6F9;
-                    border: 2px solid #FFFFFF;
+                    border: 2px solidrgb(238, 26, 26);
                     box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
                     border-radius: 20px;
                     padding: 1rem;
